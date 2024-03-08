@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    background-color: blue;
+}
+
+#boxes{
+    width: 1100px;
+    margin: 0 auto;
+}
