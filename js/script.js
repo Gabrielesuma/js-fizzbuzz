@@ -10,13 +10,13 @@ let tmpHtml = '';
 
 for(let i = 1; i <=numBox; i++){
     if(i % 3 === 0 && i % 5 === 0){
-        tmpHtml += `<div class="box">FizzBuzz</div>`;
+        tmpHtml += `<div class="box bg-success">FizzBuzz</div>`;
     } else if(i % 3 === 0){
-        tmpHtml += `<div class="box">Fizz</div>`;
+        tmpHtml += `<div class="box bg-body-tertiary">Fizz</div>`;
     } else if(i % 5 === 0){
-        tmpHtml += `<div class="box">Buzz</div>`;
+        tmpHtml += `<div class="box bg-info">Buzz</div>`;
     } else {
-        tmpHtml += `<div class="box">${i}</div>`;
+        tmpHtml += `<div class="box bg-warning">${i}</div>`;
     }
 }
 
